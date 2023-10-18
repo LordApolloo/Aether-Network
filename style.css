@@ -31,5 +31,8 @@
 }
 
 h1.front {
-
+  font-size: 50px;
+}
+h3.front {
+  font-size: 20px;
 }
