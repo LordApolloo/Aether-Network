@@ -12,7 +12,8 @@
 * {
     font-family: 'Mooli', sans-serif;
     transition-duration: 0.5s;
-    background-image: url(backgrounde1r.png)
+    background-image: url(backgrounde1r.png);
+    color: rgb(255, 255, 255);
 }
 
 .navigation {
@@ -23,7 +24,8 @@
 
 #nav-logo {
   text-align: left;
-  size: 24px;
+  height: 30px;
+  width: 20px;
 }
 
 .front {
