@@ -12,25 +12,55 @@
 * {
     font-family: 'Mooli', sans-serif;
     transition-duration: 0.5s;
-    background-image: url(backgrounde1r.png);
     color: rgb(255, 255, 255);
+    align-content: center;
+    text-align: center;
+    background-image: url(backgrounde1r.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+  position: fixed;
+  justify-content: left;
+  text-align: left;
+  top: 0;
+  padding-bottom: 10px;
+  background-color: rgb(255, 255, 255);
+  backdrop-filter: blur(50px) saturate (200%) brightness (70%);
+  box-shadow: 5px;
+  z-index: 1;
+}
+
+footer {
+  margin-top: 200px;
+  z-index: 1;
+  box-shadow: 5px;
 }
 
 .navigation {
-    text-align: center;
     font-size: 24px;
-    
+    text-decoration: none;
+    margin-bottom: 30px;
+    margin-left: 50px;
 }
 
 #nav-logo {
-  text-align: left;
-  height: 30px;
-  width: 20px;
+  height: 60px;
+  width: 60px;
+  margin-right: 10px;
+  margin-top: 5px;
 }
 
-.front {
-  text-align: center;
-
+main {
+  align-items: center;
+  left: 50%;
+  top: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
 }
 
 h1.front {
@@ -38,4 +68,13 @@ h1.front {
 }
 h3.front {
   font-size: 20px;
+}
+
+#search {
+  outline: none;
+  z-index: 5;
+  border: 2px solid white;
+  border-radius: 15px;
+  width: 200px;
+  height: 25px;
 }
